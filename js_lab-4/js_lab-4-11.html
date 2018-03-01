@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            JavaScript
+        </title>
+    </head>
+<body>
+<script>
+    var guess = +prompt("Guess the Number form 1 to 10?");
+    var secre = Math.floor(Math.random()*10);
+    if(guess === secre){
+        document.write("Bingo! Correct answer.")
+    }
+    if(guess === secre -1 || guess === secre +1){
+        document.write("Close enough to correct answer.")
+    }
+    else{
+        document.write("Try Again!")
+    }
+    
+</script>
+</body>
+</html>

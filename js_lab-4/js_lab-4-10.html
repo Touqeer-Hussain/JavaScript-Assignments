@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            JavaScript
+        </title>
+    </head>
+<body>
+<script>
+    var numItem1 = +prompt("How Many T-Shirts you want?");
+    var priceItem1 = 1000;
+    var numItem2 = +prompt("How Many USB Flash Drive(s) you want?");
+    var priceItem2 = 700;
+    
+document.write("Price of T-Shirt is "+priceItem1);
+document.write("<br>Quantity of T-Shirt is "+numItem1);
+document.write("<br>Price of USB Flash Drive(s) is "+priceItem2);
+document.write("<br>Quantity of USB Flash Drive(s) is "+numItem2);
+var total = numItem1*priceItem1 + numItem2*priceItem2 + 250;
+document.write("<br><br>Shipping Charges: 250");
+document.write("<br><br>Total Cost of your order is "+total+" PKR");
+document.write("<br>Discounted Price is "+(total - (total*0.10))+" PKR")
+
+    
+</script>
+</body>
+</html>

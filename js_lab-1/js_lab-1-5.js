@@ -1,0 +1,1 @@
+alert("Hello i can run thorugh my web browser's console!")
